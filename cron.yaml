@@ -1,0 +1,4 @@
+cron:
+  - description: "revise user results"
+    url: /tasks/revise
+    schedule: every 24 hours

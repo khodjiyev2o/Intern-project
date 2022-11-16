@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+sqlalchemy = "*"
+asyncpg = "*"
+pydantic = {extras = ["email"], version = "*"}
+alembic = "*"
+psycopg2 = "*"
+passlib = "*"
+fastapi-pagination = "*"
+aioredis = "*"
+pytest = "*"
+requests = "*"
+httpx = "*"
+anyio = "*"
+pyjwt = {extras = ["crypto"], version = "*"}
+python-multipart = "*"
+openpyxl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
